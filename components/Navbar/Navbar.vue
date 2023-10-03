@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand">Intro nuxt</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -16,6 +16,9 @@
                     </li>
                     <li class="nav-item">
                         <NuxtLink class="nav-link" to="/segunda">Segunda</NuxtLink>
+                    </li>
+                    <li class="nav-item">
+                        <NuxtLink class="nav-link" to="/post">Post</NuxtLink>
                     </li>
                     <li class="nav-item">
                         <NuxtLink class="nav-link disabled" aria-disabled="true">Disabled</NuxtLink>
