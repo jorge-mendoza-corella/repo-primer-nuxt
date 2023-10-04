@@ -13,7 +13,7 @@ const { id } = useRoute().params;
 definePageMeta({
     validate: async (route) => {
         const nuxtApp = useNuxtApp();
-        return /^\d+$/;
+        return /^\d+$/.test(route.params.id);
     }
 })
 </script>
